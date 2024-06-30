@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        /* Your CSS styles for the homepage link:https://www.anolytics.ai/wp-content/uploads/2022/07/machine_learning_healthcare.jpeg*/
+
+        body {
+            background-image: url( https://www.itnext.in/sites/default/files/styles/article_image/public/AI%20in%20Healthcare.jpg?itok=V2S17YtW );
+            /* https://www.anolytics.ai/wp-content/uploads/2022/07/machine_learning_healthcare.jpeg  */
+            background-repeat: no-repeat;
+            background-size: 1255px 585px;
+
+        
+
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #0056b340;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .left-box {
+            background-color: #052a6aa6;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 5px 15px 25px #063b8a;
+
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 50px;
+            margin-bottom: 10px;
+            font-family: emoji;
+        }
+
+        p {
+            font-size: 19px;
+            color: #fff;
+            font-family: fangsong;
+        }
+
+        .explore-button {
+            background-color: #ff0080d1;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 19px;
+            border-radius: 25px;
+            transition: background-color 0.3s;
+        }
+
+        .explore-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Box for the Sentence -->
+        <div class="left-box">
+            <h1>Welcome to Our Health Platform</h1>
+            <p><b>We believe that early detection saves lives.</b> Explore how we can make a difference in your health journey with the power of machine learning and medical expertise to enhance liver disease detection.</p>
+        </div>
+
+        <!-- "Explore" Button 
+        <a href="l1.1.html" class="explore-button">Explore</a> -->
+        <button class="explore-button" onclick="redirectToLogin()">Explore </button>
+
+    </div>
+
+    <script type="text/javascript">
+        function redirectToLogin() {
+            window.location.href = "/renderlogin";
+        }
+
+
+    </script>
+</body>
+</html>
