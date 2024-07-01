@@ -125,7 +125,7 @@ Open a web browser and go to `http://127.0.0.1:5000/` to access the welcome page
 
 ## Feedback
 
-If you have any feedback, please reach out to me at LinkedIn
+If you have any feedback, please reach out to me at [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakesh-gl-78699a245?)
 
 Please do ⭐ the repository, if you like this.😊
 
